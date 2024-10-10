@@ -1,4 +1,3 @@
-import Providers from "./redux/Providers";
 import "../public/static/css/app.4d2d73d.css";
 import "../public/static/css/glider.6f8873f.css";
 import "../public/static/css/p.css";
@@ -15,9 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Providers>{children}</Providers>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
