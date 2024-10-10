@@ -1,6 +1,4 @@
 import Script from "next/script";
-import StepForm from "../components/MultiStepForm/StepForm";
-import Steps from "../components/MultiStepForm/Steps";
 import React from "react";
 
 export default function page() {
